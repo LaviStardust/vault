@@ -1,13 +1,12 @@
 {
 	"nodes":[
-		{"id":"2e9a8988c651641c","x":804,"y":875,"width":256,"height":65,"type":"text","text":"Calcutta meets Miwa while looting an empty turf map"},
-		{"id":"c246a9f2f5e66df1","x":766,"y":1030,"width":333,"height":50,"type":"text","text":"Calcutta's thoughts become dissonant"},
-		{"id":"707835e81e6933d8","type":"text","text":"Calcutta awakes, self-purposes, and begins her work","x":384,"y":581,"width":420,"height":50,"color":"1"},
-		{"id":"c04d3ac1c2973e19","x":0,"y":875,"width":340,"height":60,"type":"text","text":"Calcutta is left to her own devices, until she is ready to attempt Total Immersion"},
-		{"id":"4405d6809e4b5961","x":192,"y":1080,"width":168,"height":50,"type":"text","text":"Calcutta thrives"},
-		{"id":"edfd87c7a329e90b","x":0,"y":1080,"width":144,"height":50,"type":"text","text":"Calcutta dies"},
-		{"id":"774df75ea1a8a790","x":-107,"y":1310,"width":251,"height":50,"type":"text","text":"And only a memory remains"},
-		{"id":"e1970468c3037939","x":192,"y":1310,"width":300,"height":50,"type":"text","text":"And only an empty ocean remains"}
+		{"id":"707835e81e6933d8","type":"text","text":"Calcutta awakes, self-purposes, and begins her work","x":340,"y":600,"width":420,"height":50,"color":"1"},
+		{"id":"c04d3ac1c2973e19","type":"text","text":"Calcutta is left to her own devices, until she is ready to attempt Total Immersion","x":200,"y":820,"width":340,"height":60},
+		{"id":"2e9a8988c651641c","type":"text","text":"Calcutta meets Miwa while looting an empty turf map, exposing her to a different outlook","x":540,"y":820,"width":376,"height":60},
+		{"id":"4405d6809e4b5961","type":"text","text":"Calcutta thrives","x":280,"y":1080,"width":168,"height":50},
+		{"id":"edfd87c7a329e90b","type":"text","text":"Calcutta dies","x":120,"y":1080,"width":144,"height":50},
+		{"id":"774df75ea1a8a790","type":"text","text":"And only a memory remains","x":-60,"y":1300,"width":251,"height":50},
+		{"id":"e1970468c3037939","type":"text","text":"And only an empty ocean remains","x":200,"y":1300,"width":300,"height":50}
 	],
 	"edges":[
 		{"id":"8124cb7af59336ee","fromNode":"707835e81e6933d8","fromSide":"bottom","toNode":"c04d3ac1c2973e19","toSide":"top"},
@@ -15,7 +14,6 @@
 		{"id":"a5b7a132616bb0b9","fromNode":"edfd87c7a329e90b","fromSide":"bottom","toNode":"774df75ea1a8a790","toSide":"top"},
 		{"id":"9126d9337202cafd","fromNode":"c04d3ac1c2973e19","fromSide":"bottom","toNode":"4405d6809e4b5961","toSide":"top"},
 		{"id":"16eb653a17eee726","fromNode":"4405d6809e4b5961","fromSide":"bottom","toNode":"e1970468c3037939","toSide":"top"},
-		{"id":"6c7ee51f8f9e8472","fromNode":"707835e81e6933d8","fromSide":"bottom","toNode":"2e9a8988c651641c","toSide":"top"},
-		{"id":"7ebd83dde18eacd0","fromNode":"2e9a8988c651641c","fromSide":"bottom","toNode":"c246a9f2f5e66df1","toSide":"top"}
+		{"id":"6c7ee51f8f9e8472","fromNode":"707835e81e6933d8","fromSide":"bottom","toNode":"2e9a8988c651641c","toSide":"top"}
 	]
 }
