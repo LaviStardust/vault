@@ -1,6 +1,6 @@
 {
   "vaultName": "Stardust Infobase",
-  "lastExport": 1724542417819,
+  "lastExport": 1724543017702,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-inline-title ctp-rosepine-light ctp-frappe ctp-accent-light-lavender ctp-accent-mauve anuppuccin-accent-toggle anp-callout-vanilla-normal anp-callout-color-toggle anp-custom-checkboxes anp-speech-bubble anp-color-transition-toggle anp-toggle-scrollbars anp-h1-red anp-h1-divider anp-h2-peach anp-h3-green anp-h4-teal anp-h5-lavender anp-h6-mauve anp-decoration-toggle anp-bold-red anp-italic-green anp-highlight-yellow anp-simple-rainbow-color-toggle anp-full-rainbow-text-color-toggle-light anp-full-rainbow-text-color-toggle-dark anp-simple-rainbow-title-toggle anp-simple-rainbow-collapse-icon-toggle anp-simple-rainbow-indentation-toggle anp-rainbow-subfolder-color-toggle anp-card-layout anp-bg-fix anp-card-shadows anp-card-layout-actions",
   "useCustomHeadContent": true,
@@ -65,15 +65,23 @@
     "Writings/Writings.md",
     "Writings/You Want To Get Out.md",
     "Index.md",
+    "lib/media/cooking_omelette.jpg",
+    "lib/media/cooking_scrambled_eggs.jpg",
+    "lib/media/splat_alice.png",
+    "lib/media/splat_amphi.jpg",
     "lib/media/splat_calcutta_event.png",
     "lib/media/splat_cass.png",
     "lib/media/splat_charlotte.png",
     "lib/media/splat_karcy.png",
+    "lib/media/splat_lune.png",
     "lib/media/splat_maeryn.png",
+    "lib/media/splat_miwa_chill.png",
+    "lib/media/splat_miwa_agent.png",
     "lib/media/splat_smokey1.png",
     "lib/media/splat_smokey3.png",
     "lib/media/splat_smokey2.png",
     "lib/media/splat_smokey4.png",
+    "lib/media/splat_factory_fugue.png",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -106,16 +114,7 @@
     "lib/styles/global-variable-styles.css",
     "lib/styles/supported-plugins.css",
     "lib/styles/main-styles.css",
-    "lib/styles/snippets.css",
-    "lib/media/cooking_omelette.jpg",
-    "lib/media/cooking_scrambled_eggs.jpg",
-    "lib/media/splat_alice.png",
-    "lib/media/splat_amphi.jpg",
-    "lib/media/splat_modi.png",
-    "lib/media/splat_lune.png",
-    "lib/media/splat_miwa_chill.png",
-    "lib/media/splat_miwa_agent.png",
-    "lib/media/splat_factory_fugue.png"
+    "lib/styles/snippets.css"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -154,91 +153,139 @@
   ],
   "fileInfo": {
     "@Assets/Cooking/Cooking_Omelette.jpg": {
-      "modifiedTime": 1720725347991,
+      "modifiedTime": 1724543017702,
       "sourceSize": 435521,
       "exportedPath": "@assets/cooking/cooking_omelette.jpg",
       "dependencies": []
     },
     "@Assets/Cooking/Cooking_Scrambled_Eggs.jpg": {
-      "modifiedTime": 1720725347991,
+      "modifiedTime": 1724543017702,
       "sourceSize": 3538197,
       "exportedPath": "@assets/cooking/cooking_scrambled_eggs.jpg",
       "dependencies": []
     },
     "@Assets/Dev/Dev_Arm_IK.png": {
-      "modifiedTime": 1720725347991,
+      "modifiedTime": 1724543017702,
       "sourceSize": 212564,
       "exportedPath": "@assets/dev/dev_arm_ik.png",
       "dependencies": []
     },
     "@Assets/Dev/Dev_Wrist_Weight.png": {
-      "modifiedTime": 1720725347991,
+      "modifiedTime": 1724543017702,
       "sourceSize": 27780,
       "exportedPath": "@assets/dev/dev_wrist_weight.png",
       "dependencies": []
     },
     "@Assets/Splat/Splat_Alice.png": {
-      "modifiedTime": 1720725347991,
+      "modifiedTime": 1724543017702,
       "sourceSize": 145995,
       "exportedPath": "@assets/splat/splat_alice.png",
       "dependencies": []
     },
     "@Assets/Splat/Splat_Amphi.jpg": {
-      "modifiedTime": 1720725347991,
+      "modifiedTime": 1724543017702,
       "sourceSize": 442052,
       "exportedPath": "@assets/splat/splat_amphi.jpg",
       "dependencies": []
     },
     "@Assets/Splat/Splat_Calcutta_Event.png": {
-      "modifiedTime": 1720725347991,
+      "modifiedTime": 1724543017702,
       "sourceSize": 1778514,
       "exportedPath": "@assets/splat/splat_calcutta_event.png",
       "dependencies": []
     },
+    "@Assets/Splat/Splat_Calcutta_Pronounciation1.mp3": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 4590,
+      "exportedPath": "@assets/splat/splat_calcutta_pronounciation1.mp3",
+      "dependencies": []
+    },
+    "@Assets/Splat/Splat_Calcutta_Pronounciation2.mp3": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 3493,
+      "exportedPath": "@assets/splat/splat_calcutta_pronounciation2.mp3",
+      "dependencies": []
+    },
+    "@Assets/Splat/Splat_Cass.png": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 195283,
+      "exportedPath": "@assets/splat/splat_cass.png",
+      "dependencies": []
+    },
     "@Assets/Splat/Splat_Charlotte.png": {
-      "modifiedTime": 1720725347991,
+      "modifiedTime": 1724543017702,
       "sourceSize": 72711,
       "exportedPath": "@assets/splat/splat_charlotte.png",
       "dependencies": []
     },
     "@Assets/Splat/Splat_Factory_Fugue.png": {
-      "modifiedTime": 1720725347991,
+      "modifiedTime": 1724543017702,
       "sourceSize": 94972,
       "exportedPath": "@assets/splat/splat_factory_fugue.png",
       "dependencies": []
     },
+    "@Assets/Splat/Splat_Karcy.png": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 236259,
+      "exportedPath": "@assets/splat/splat_karcy.png",
+      "dependencies": []
+    },
     "@Assets/Splat/Splat_Lune.png": {
-      "modifiedTime": 1720725347991,
+      "modifiedTime": 1724543017702,
       "sourceSize": 144959,
       "exportedPath": "@assets/splat/splat_lune.png",
       "dependencies": []
     },
     "@Assets/Splat/Splat_Maeryn.png": {
-      "modifiedTime": 1720725347991,
+      "modifiedTime": 1724543017702,
       "sourceSize": 190135,
       "exportedPath": "@assets/splat/splat_maeryn.png",
       "dependencies": []
     },
     "@Assets/Splat/Splat_Miwa_Agent.png": {
-      "modifiedTime": 1720725347991,
+      "modifiedTime": 1724543017702,
       "sourceSize": 190713,
       "exportedPath": "@assets/splat/splat_miwa_agent.png",
       "dependencies": []
     },
     "@Assets/Splat/Splat_Miwa_Chill.png": {
-      "modifiedTime": 1720725347991,
+      "modifiedTime": 1724543017702,
       "sourceSize": 1571280,
       "exportedPath": "@assets/splat/splat_miwa_chill.png",
       "dependencies": []
     },
+    "@Assets/Splat/Splat_Smokey1.png": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 233681,
+      "exportedPath": "@assets/splat/splat_smokey1.png",
+      "dependencies": []
+    },
+    "@Assets/Splat/Splat_Smokey2.png": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 125041,
+      "exportedPath": "@assets/splat/splat_smokey2.png",
+      "dependencies": []
+    },
+    "@Assets/Splat/Splat_Smokey3.png": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 45781,
+      "exportedPath": "@assets/splat/splat_smokey3.png",
+      "dependencies": []
+    },
+    "@Assets/Splat/Splat_Smokey4.png": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 168947,
+      "exportedPath": "@assets/splat/splat_smokey4.png",
+      "dependencies": []
+    },
     "Cooking/Cooking.md": {
-      "modifiedTime": 1720725347991,
+      "modifiedTime": 1724543017702,
       "sourceSize": 138,
       "exportedPath": "cooking/cooking.html",
       "dependencies": []
     },
     "Cooking/Omelette.md": {
-      "modifiedTime": 1720725347991,
+      "modifiedTime": 1724543017702,
       "sourceSize": 795,
       "exportedPath": "cooking/omelette.html",
       "dependencies": [
@@ -246,19 +293,19 @@
       ]
     },
     "Cooking/Pasta.md": {
-      "modifiedTime": 1720725347991,
+      "modifiedTime": 1724543017702,
       "sourceSize": 150,
       "exportedPath": "cooking/pasta.html",
       "dependencies": []
     },
     "Cooking/Rice.md": {
-      "modifiedTime": 1720725347991,
+      "modifiedTime": 1724543017702,
       "sourceSize": 0,
       "exportedPath": "cooking/rice.html",
       "dependencies": []
     },
     "Cooking/Scrambled Eggs.md": {
-      "modifiedTime": 1720725347991,
+      "modifiedTime": 1724543017702,
       "sourceSize": 735,
       "exportedPath": "cooking/scrambled-eggs.html",
       "dependencies": [
@@ -266,7 +313,7 @@
       ]
     },
     "Splatoon/Characters/Alice's Splatsona.md": {
-      "modifiedTime": 1721492637695,
+      "modifiedTime": 1724543017702,
       "sourceSize": 1252,
       "exportedPath": "splatoon/characters/alice's-splatsona.html",
       "dependencies": [
@@ -274,7 +321,7 @@
       ]
     },
     "Splatoon/Characters/Amphi.md": {
-      "modifiedTime": 1721492637695,
+      "modifiedTime": 1724543017702,
       "sourceSize": 1402,
       "exportedPath": "splatoon/characters/amphi.html",
       "dependencies": [
@@ -282,27 +329,35 @@
       ]
     },
     "Splatoon/Characters/Ashley's Splatsona.md": {
-      "modifiedTime": 1721492637695,
+      "modifiedTime": 1724543017702,
       "sourceSize": 1143,
       "exportedPath": "splatoon/characters/ashley's-splatsona.html",
       "dependencies": []
     },
     "Splatoon/Characters/Calcutta.md": {
-      "modifiedTime": 1724542417819,
+      "modifiedTime": 1724543017702,
       "sourceSize": 3249,
       "exportedPath": "splatoon/characters/calcutta.html",
       "dependencies": [
         "lib/media/splat_calcutta_event.png"
       ]
     },
+    "Splatoon/Characters/Cass.md": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 982,
+      "exportedPath": "splatoon/characters/cass.html",
+      "dependencies": [
+        "lib/media/splat_cass.png"
+      ]
+    },
     "Splatoon/Characters/Cecilia's Splatsona.md": {
-      "modifiedTime": 1721099395478,
+      "modifiedTime": 1724543017702,
       "sourceSize": 348,
       "exportedPath": "splatoon/characters/cecilia's-splatsona.html",
       "dependencies": []
     },
     "Splatoon/Characters/Charlotte's Splatsona.md": {
-      "modifiedTime": 1724542417819,
+      "modifiedTime": 1724543017702,
       "sourceSize": 826,
       "exportedPath": "splatoon/characters/charlotte's-splatsona.html",
       "dependencies": [
@@ -310,15 +365,21 @@
       ]
     },
     "Splatoon/Characters/Karcy.md": {
-      "modifiedTime": 1724542417819,
+      "modifiedTime": 1724543017702,
       "sourceSize": 1487,
       "exportedPath": "splatoon/characters/karcy.html",
       "dependencies": [
         "lib/media/splat_karcy.png"
       ]
     },
+    "Splatoon/Characters/Kurin.md": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 980,
+      "exportedPath": "splatoon/characters/kurin.html",
+      "dependencies": []
+    },
     "Splatoon/Characters/Lune.md": {
-      "modifiedTime": 1721099395478,
+      "modifiedTime": 1724543017702,
       "sourceSize": 926,
       "exportedPath": "splatoon/characters/lune.html",
       "dependencies": [
@@ -326,7 +387,7 @@
       ]
     },
     "Splatoon/Characters/Maeryn.md": {
-      "modifiedTime": 1724542417819,
+      "modifiedTime": 1724543017702,
       "sourceSize": 1824,
       "exportedPath": "splatoon/characters/maeryn.html",
       "dependencies": [
@@ -334,7 +395,7 @@
       ]
     },
     "Splatoon/Characters/Miwa.md": {
-      "modifiedTime": 1721099395478,
+      "modifiedTime": 1724543017702,
       "sourceSize": 2000,
       "exportedPath": "splatoon/characters/miwa.html",
       "dependencies": [
@@ -342,450 +403,8 @@
         "lib/media/splat_miwa_agent.png"
       ]
     },
-    "Splatoon/Characters (other sources)/Kaia SHIRUI.md": {
-      "modifiedTime": 1720725347991,
-      "sourceSize": 817,
-      "exportedPath": "splatoon/characters-(other-sources)/kaia-shirui.html",
-      "dependencies": []
-    },
-    "Splatoon/Concepts/Neukadian Traits/Ink Impairment.md": {
-      "modifiedTime": 1720725347991,
-      "sourceSize": 202,
-      "exportedPath": "splatoon/concepts/neukadian-traits/ink-impairment.html",
-      "dependencies": []
-    },
-    "Splatoon/Concepts/Neukadian Traits/Ink Starvation.md": {
-      "modifiedTime": 1720725347991,
-      "sourceSize": 272,
-      "exportedPath": "splatoon/concepts/neukadian-traits/ink-starvation.html",
-      "dependencies": []
-    },
-    "Splatoon/Concepts/Neukadian Traits/Vandecaria.md": {
-      "modifiedTime": 1722519915929,
-      "sourceSize": 1697,
-      "exportedPath": "splatoon/concepts/neukadian-traits/vandecaria.html",
-      "dependencies": []
-    },
-    "Splatoon/Concepts/Factory Fugue.md": {
-      "modifiedTime": 1721093922345,
-      "sourceSize": 1016,
-      "exportedPath": "splatoon/concepts/factory-fugue.html",
-      "dependencies": [
-        "lib/media/splat_factory_fugue.png"
-      ]
-    },
-    "Splatoon/Concepts/Fresh Outta Hell.md": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 605,
-      "exportedPath": "splatoon/concepts/fresh-outta-hell.html",
-      "dependencies": []
-    },
-    "Splatoon/Concepts/Holdout Mixture.md": {
-      "modifiedTime": 1720725347991,
-      "sourceSize": 817,
-      "exportedPath": "splatoon/concepts/holdout-mixture.html",
-      "dependencies": []
-    },
-    "Splatoon/Splatoon.md": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 654,
-      "exportedPath": "splatoon/splatoon.html",
-      "dependencies": []
-    },
-    "Writings/Alk'ost.md": {
-      "modifiedTime": 1720725347991,
-      "sourceSize": 5077,
-      "exportedPath": "writings/alk'ost.html",
-      "dependencies": []
-    },
-    "Writings/The 'Why' of Calcutta.md": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 1229,
-      "exportedPath": "writings/the-'why'-of-calcutta.html",
-      "dependencies": []
-    },
-    "Writings/Writings.md": {
-      "modifiedTime": 1722519915929,
-      "sourceSize": 148,
-      "exportedPath": "writings/writings.html",
-      "dependencies": []
-    },
-    "Writings/You Want To Get Out.md": {
-      "modifiedTime": 1720725347991,
-      "sourceSize": 1643,
-      "exportedPath": "writings/you-want-to-get-out.html",
-      "dependencies": []
-    },
-    "lib/media/cooking_omelette.jpg": {
-      "modifiedTime": 1720725347991,
-      "sourceSize": 435521,
-      "exportedPath": "lib/media/cooking_omelette.jpg",
-      "dependencies": []
-    },
-    "lib/media/cooking_scrambled_eggs.jpg": {
-      "modifiedTime": 1720725347991,
-      "sourceSize": 3538197,
-      "exportedPath": "lib/media/cooking_scrambled_eggs.jpg",
-      "dependencies": []
-    },
-    "lib/media/splat_alice.png": {
-      "modifiedTime": 1721492637695,
-      "sourceSize": 145995,
-      "exportedPath": "lib/media/splat_alice.png",
-      "dependencies": []
-    },
-    "lib/media/splat_amphi.jpg": {
-      "modifiedTime": 1721492637695,
-      "sourceSize": 442052,
-      "exportedPath": "lib/media/splat_amphi.jpg",
-      "dependencies": []
-    },
-    "lib/media/splat_calcutta_event.png": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 1778514,
-      "exportedPath": "lib/media/splat_calcutta_event.png",
-      "dependencies": []
-    },
-    "lib/media/splat_charlotte.png": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 72711,
-      "exportedPath": "lib/media/splat_charlotte.png",
-      "dependencies": []
-    },
-    "lib/media/splat_modi.png": {
-      "modifiedTime": 1721099395478,
-      "sourceSize": 236259,
-      "exportedPath": "lib/media/splat_modi.png",
-      "dependencies": []
-    },
-    "lib/media/splat_lune.png": {
-      "modifiedTime": 1721099395478,
-      "sourceSize": 144959,
-      "exportedPath": "lib/media/splat_lune.png",
-      "dependencies": []
-    },
-    "lib/media/splat_maeryn.png": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 190135,
-      "exportedPath": "lib/media/splat_maeryn.png",
-      "dependencies": []
-    },
-    "lib/media/splat_miwa_chill.png": {
-      "modifiedTime": 1721099395478,
-      "sourceSize": 1571280,
-      "exportedPath": "lib/media/splat_miwa_chill.png",
-      "dependencies": []
-    },
-    "lib/media/splat_miwa_agent.png": {
-      "modifiedTime": 1721099395478,
-      "sourceSize": 190713,
-      "exportedPath": "lib/media/splat_miwa_agent.png",
-      "dependencies": []
-    },
-    "lib/media/splat_factory_fugue.png": {
-      "modifiedTime": 1721093922345,
-      "sourceSize": 94972,
-      "exportedPath": "lib/media/splat_factory_fugue.png",
-      "dependencies": []
-    },
-    "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 23377,
-      "exportedPath": "lib/scripts/graph-wasm.wasm",
-      "dependencies": []
-    },
-    "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 66800,
-      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
-      "dependencies": []
-    },
-    "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 104232,
-      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 104332,
-      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 98868,
-      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 106876,
-      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 105804,
-      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 106108,
-      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 111708,
-      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 192740,
-      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 161376,
-      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 191568,
-      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 155288,
-      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 7876,
-      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-      "dependencies": []
-    },
-    "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 317,
-      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
-      "dependencies": []
-    },
-    "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 279,
-      "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
-      "dependencies": []
-    },
-    "lib/html/file-tree.html": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 49425,
-      "exportedPath": "lib/html/file-tree.html",
-      "dependencies": []
-    },
-    "lib/scripts/webpage.js": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 47290,
-      "exportedPath": "lib/scripts/webpage.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-view.js": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 15519,
-      "exportedPath": "lib/scripts/graph-view.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 14021,
-      "exportedPath": "lib/scripts/graph-wasm.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 5179,
-      "exportedPath": "lib/scripts/graph-render-worker.js",
-      "dependencies": []
-    },
-    "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 29832,
-      "exportedPath": "lib/scripts/tinycolor.js",
-      "dependencies": []
-    },
-    "lib/scripts/pixi.js": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 449509,
-      "exportedPath": "lib/scripts/pixi.js",
-      "dependencies": []
-    },
-    "lib/scripts/minisearch.js": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 29422,
-      "exportedPath": "lib/scripts/minisearch.js",
-      "dependencies": []
-    },
-    "lib/media/favicon.png": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 4204,
-      "exportedPath": "lib/media/favicon.png",
-      "dependencies": []
-    },
-    "lib/html/custom-head-content.html": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 77,
-      "exportedPath": "lib/html/custom-head-content.html",
-      "dependencies": []
-    },
-    "lib/scripts/graph-data.js": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 3393,
-      "exportedPath": "lib/scripts/graph-data.js",
-      "dependencies": []
-    },
-    "lib/styles/obsidian.css": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 130471,
-      "exportedPath": "lib/styles/obsidian.css",
-      "dependencies": []
-    },
-    "lib/styles/theme.css": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 272562,
-      "exportedPath": "lib/styles/theme.css",
-      "dependencies": []
-    },
-    "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 312,
-      "exportedPath": "lib/styles/global-variable-styles.css",
-      "dependencies": []
-    },
-    "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 341,
-      "exportedPath": "lib/styles/supported-plugins.css",
-      "dependencies": []
-    },
-    "lib/styles/main-styles.css": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 23130,
-      "exportedPath": "lib/styles/main-styles.css",
-      "dependencies": []
-    },
-    "lib/styles/snippets.css": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 325,
-      "exportedPath": "lib/styles/snippets.css",
-      "dependencies": []
-    },
-    "Index.md": {
-      "modifiedTime": 1722520252833,
-      "sourceSize": 160,
-      "exportedPath": "index.html",
-      "dependencies": []
-    },
-    "Splatoon/Concepts/Neukadian Traits/Neukadian Traits.md": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 175,
-      "exportedPath": "splatoon/concepts/neukadian-traits/neukadian-traits.html",
-      "dependencies": []
-    },
-    "Splatoon/Concepts/Differences in Inklings, Octolings, and Neukadians.md": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 3682,
-      "exportedPath": "splatoon/concepts/differences-in-inklings,-octolings,-and-neukadians.html",
-      "dependencies": []
-    },
-    "@Assets/Splat/Splat_Calcutta_Pronounciation1.mp3": {
-      "modifiedTime": 1722519915929,
-      "sourceSize": 4590,
-      "exportedPath": "@assets/splat/splat_calcutta_pronounciation1.mp3",
-      "dependencies": []
-    },
-    "@Assets/Splat/Splat_Calcutta_Pronounciation2.mp3": {
-      "modifiedTime": 1722519915929,
-      "sourceSize": 3493,
-      "exportedPath": "@assets/splat/splat_calcutta_pronounciation2.mp3",
-      "dependencies": []
-    },
-    "Splatoon/Characters/Kurin.md": {
-      "modifiedTime": 1722519915929,
-      "sourceSize": 980,
-      "exportedPath": "splatoon/characters/kurin.html",
-      "dependencies": []
-    },
-    "Splatoon/Timelines/Calcutta Alone Timeline.md": {
-      "modifiedTime": 1722519915929,
-      "sourceSize": 854,
-      "exportedPath": "splatoon/timelines/calcutta-alone-timeline.html",
-      "dependencies": []
-    },
-    "Splatoon/Timelines/Fresh Outta Hell Timeline.md": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 604,
-      "exportedPath": "splatoon/timelines/fresh-outta-hell-timeline.html",
-      "dependencies": []
-    },
-    "Splatoon/Timelines/Miwa's Choice Timeline.md": {
-      "modifiedTime": 1722519915929,
-      "sourceSize": 2352,
-      "exportedPath": "splatoon/timelines/miwa's-choice-timeline.html",
-      "dependencies": []
-    },
-    "@Assets/Splat/Splat_Cass.png": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 195283,
-      "exportedPath": "@assets/splat/splat_cass.png",
-      "dependencies": []
-    },
-    "@Assets/Splat/Splat_Karcy.png": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 236259,
-      "exportedPath": "@assets/splat/splat_karcy.png",
-      "dependencies": []
-    },
-    "@Assets/Splat/Splat_Smokey1.png": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 233681,
-      "exportedPath": "@assets/splat/splat_smokey1.png",
-      "dependencies": []
-    },
-    "@Assets/Splat/Splat_Smokey2.png": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 125041,
-      "exportedPath": "@assets/splat/splat_smokey2.png",
-      "dependencies": []
-    },
-    "@Assets/Splat/Splat_Smokey3.png": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 45781,
-      "exportedPath": "@assets/splat/splat_smokey3.png",
-      "dependencies": []
-    },
-    "@Assets/Splat/Splat_Smokey4.png": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 168947,
-      "exportedPath": "@assets/splat/splat_smokey4.png",
-      "dependencies": []
-    },
-    "Splatoon/Characters/Cass.md": {
-      "modifiedTime": 1724542417819,
-      "sourceSize": 982,
-      "exportedPath": "splatoon/characters/cass.html",
-      "dependencies": [
-        "lib/media/splat_cass.png"
-      ]
-    },
     "Splatoon/Characters/Smokey.md": {
-      "modifiedTime": 1724542417819,
+      "modifiedTime": 1724543017702,
       "sourceSize": 1018,
       "exportedPath": "splatoon/characters/smokey.html",
       "dependencies": [
@@ -795,52 +414,426 @@
         "lib/media/splat_smokey4.png"
       ]
     },
+    "Splatoon/Characters (other sources)/Kaia SHIRUI.md": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 817,
+      "exportedPath": "splatoon/characters-(other-sources)/kaia-shirui.html",
+      "dependencies": []
+    },
     "Splatoon/Concepts/Neukadian Traits/Chromatophobia.md": {
-      "modifiedTime": 1724542417819,
+      "modifiedTime": 1724543017702,
       "sourceSize": 253,
       "exportedPath": "splatoon/concepts/neukadian-traits/chromatophobia.html",
       "dependencies": []
     },
+    "Splatoon/Concepts/Neukadian Traits/Ink Impairment.md": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 202,
+      "exportedPath": "splatoon/concepts/neukadian-traits/ink-impairment.html",
+      "dependencies": []
+    },
+    "Splatoon/Concepts/Neukadian Traits/Ink Starvation.md": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 272,
+      "exportedPath": "splatoon/concepts/neukadian-traits/ink-starvation.html",
+      "dependencies": []
+    },
+    "Splatoon/Concepts/Neukadian Traits/Neukadian Traits.md": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 175,
+      "exportedPath": "splatoon/concepts/neukadian-traits/neukadian-traits.html",
+      "dependencies": []
+    },
     "Splatoon/Concepts/Neukadian Traits/Stability.md": {
-      "modifiedTime": 1724542417819,
+      "modifiedTime": 1724543017702,
       "sourceSize": 322,
       "exportedPath": "splatoon/concepts/neukadian-traits/stability.html",
       "dependencies": []
     },
+    "Splatoon/Concepts/Neukadian Traits/Vandecaria.md": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 1697,
+      "exportedPath": "splatoon/concepts/neukadian-traits/vandecaria.html",
+      "dependencies": []
+    },
+    "Splatoon/Concepts/Differences in Inklings, Octolings, and Neukadians.md": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 3682,
+      "exportedPath": "splatoon/concepts/differences-in-inklings,-octolings,-and-neukadians.html",
+      "dependencies": []
+    },
+    "Splatoon/Concepts/Factory Fugue.md": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 1016,
+      "exportedPath": "splatoon/concepts/factory-fugue.html",
+      "dependencies": [
+        "lib/media/splat_factory_fugue.png"
+      ]
+    },
+    "Splatoon/Concepts/Fresh Outta Hell.md": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 605,
+      "exportedPath": "splatoon/concepts/fresh-outta-hell.html",
+      "dependencies": []
+    },
+    "Splatoon/Concepts/Holdout Mixture.md": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 817,
+      "exportedPath": "splatoon/concepts/holdout-mixture.html",
+      "dependencies": []
+    },
+    "Splatoon/Timelines/Calcutta Alone Timeline.md": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 854,
+      "exportedPath": "splatoon/timelines/calcutta-alone-timeline.html",
+      "dependencies": []
+    },
+    "Splatoon/Timelines/Fresh Outta Hell Timeline.md": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 604,
+      "exportedPath": "splatoon/timelines/fresh-outta-hell-timeline.html",
+      "dependencies": []
+    },
+    "Splatoon/Timelines/Miwa's Choice Timeline.md": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 2352,
+      "exportedPath": "splatoon/timelines/miwa's-choice-timeline.html",
+      "dependencies": []
+    },
+    "Splatoon/Splatoon.md": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 654,
+      "exportedPath": "splatoon/splatoon.html",
+      "dependencies": []
+    },
+    "Writings/Alk'ost.md": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 5077,
+      "exportedPath": "writings/alk'ost.html",
+      "dependencies": []
+    },
+    "Writings/The 'Why' of Calcutta.md": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 1229,
+      "exportedPath": "writings/the-'why'-of-calcutta.html",
+      "dependencies": []
+    },
+    "Writings/Writings.md": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 148,
+      "exportedPath": "writings/writings.html",
+      "dependencies": []
+    },
+    "Writings/You Want To Get Out.md": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 1643,
+      "exportedPath": "writings/you-want-to-get-out.html",
+      "dependencies": []
+    },
+    "Index.md": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 160,
+      "exportedPath": "index.html",
+      "dependencies": []
+    },
+    "lib/media/cooking_omelette.jpg": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 435521,
+      "exportedPath": "lib/media/cooking_omelette.jpg",
+      "dependencies": []
+    },
+    "lib/media/cooking_scrambled_eggs.jpg": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 3538197,
+      "exportedPath": "lib/media/cooking_scrambled_eggs.jpg",
+      "dependencies": []
+    },
+    "lib/media/splat_alice.png": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 145995,
+      "exportedPath": "lib/media/splat_alice.png",
+      "dependencies": []
+    },
+    "lib/media/splat_amphi.jpg": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 442052,
+      "exportedPath": "lib/media/splat_amphi.jpg",
+      "dependencies": []
+    },
+    "lib/media/splat_calcutta_event.png": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 1778514,
+      "exportedPath": "lib/media/splat_calcutta_event.png",
+      "dependencies": []
+    },
     "lib/media/splat_cass.png": {
-      "modifiedTime": 1724542417819,
+      "modifiedTime": 1724543017702,
       "sourceSize": 195283,
       "exportedPath": "lib/media/splat_cass.png",
       "dependencies": []
     },
+    "lib/media/splat_charlotte.png": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 72711,
+      "exportedPath": "lib/media/splat_charlotte.png",
+      "dependencies": []
+    },
     "lib/media/splat_karcy.png": {
-      "modifiedTime": 1724542417819,
+      "modifiedTime": 1724543017702,
       "sourceSize": 236259,
       "exportedPath": "lib/media/splat_karcy.png",
       "dependencies": []
     },
+    "lib/media/splat_lune.png": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 144959,
+      "exportedPath": "lib/media/splat_lune.png",
+      "dependencies": []
+    },
+    "lib/media/splat_maeryn.png": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 190135,
+      "exportedPath": "lib/media/splat_maeryn.png",
+      "dependencies": []
+    },
+    "lib/media/splat_miwa_chill.png": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 1571280,
+      "exportedPath": "lib/media/splat_miwa_chill.png",
+      "dependencies": []
+    },
+    "lib/media/splat_miwa_agent.png": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 190713,
+      "exportedPath": "lib/media/splat_miwa_agent.png",
+      "dependencies": []
+    },
     "lib/media/splat_smokey1.png": {
-      "modifiedTime": 1724542417819,
+      "modifiedTime": 1724543017702,
       "sourceSize": 233681,
       "exportedPath": "lib/media/splat_smokey1.png",
       "dependencies": []
     },
     "lib/media/splat_smokey3.png": {
-      "modifiedTime": 1724542417819,
+      "modifiedTime": 1724543017702,
       "sourceSize": 45781,
       "exportedPath": "lib/media/splat_smokey3.png",
       "dependencies": []
     },
     "lib/media/splat_smokey2.png": {
-      "modifiedTime": 1724542417819,
+      "modifiedTime": 1724543017702,
       "sourceSize": 125041,
       "exportedPath": "lib/media/splat_smokey2.png",
       "dependencies": []
     },
     "lib/media/splat_smokey4.png": {
-      "modifiedTime": 1724542417819,
+      "modifiedTime": 1724543017702,
       "sourceSize": 168947,
       "exportedPath": "lib/media/splat_smokey4.png",
+      "dependencies": []
+    },
+    "lib/media/splat_factory_fugue.png": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 94972,
+      "exportedPath": "lib/media/splat_factory_fugue.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.wasm": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 23377,
+      "exportedPath": "lib/scripts/graph-wasm.wasm",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/874d8b8e340f75575caa.svg": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 317,
+      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
+      "dependencies": []
+    },
+    "lib/media/3d6c1bdc4d87cde4de67.svg": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 279,
+      "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
+      "dependencies": []
+    },
+    "lib/html/file-tree.html": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 67821,
+      "exportedPath": "lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "lib/scripts/webpage.js": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 47290,
+      "exportedPath": "lib/scripts/webpage.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-view.js": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 15519,
+      "exportedPath": "lib/scripts/graph-view.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.js": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 14021,
+      "exportedPath": "lib/scripts/graph-wasm.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-render-worker.js": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 5179,
+      "exportedPath": "lib/scripts/graph-render-worker.js",
+      "dependencies": []
+    },
+    "lib/scripts/tinycolor.js": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 29832,
+      "exportedPath": "lib/scripts/tinycolor.js",
+      "dependencies": []
+    },
+    "lib/scripts/pixi.js": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 449509,
+      "exportedPath": "lib/scripts/pixi.js",
+      "dependencies": []
+    },
+    "lib/scripts/minisearch.js": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 29422,
+      "exportedPath": "lib/scripts/minisearch.js",
+      "dependencies": []
+    },
+    "lib/media/favicon.png": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 4204,
+      "exportedPath": "lib/media/favicon.png",
+      "dependencies": []
+    },
+    "lib/html/custom-head-content.html": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 77,
+      "exportedPath": "lib/html/custom-head-content.html",
+      "dependencies": []
+    },
+    "lib/scripts/graph-data.js": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 3393,
+      "exportedPath": "lib/scripts/graph-data.js",
+      "dependencies": []
+    },
+    "lib/styles/obsidian.css": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 130471,
+      "exportedPath": "lib/styles/obsidian.css",
+      "dependencies": []
+    },
+    "lib/styles/theme.css": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 272562,
+      "exportedPath": "lib/styles/theme.css",
+      "dependencies": []
+    },
+    "lib/styles/global-variable-styles.css": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 312,
+      "exportedPath": "lib/styles/global-variable-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/supported-plugins.css": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 341,
+      "exportedPath": "lib/styles/supported-plugins.css",
+      "dependencies": []
+    },
+    "lib/styles/main-styles.css": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 23130,
+      "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/snippets.css": {
+      "modifiedTime": 1724543017702,
+      "sourceSize": 325,
+      "exportedPath": "lib/styles/snippets.css",
       "dependencies": []
     }
   }
